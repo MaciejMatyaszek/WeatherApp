@@ -1,0 +1,30 @@
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login_content {
+  border: 1px solid gray;
+  border-radius: 3%;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 100px 0px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.login_fileds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_filed {
+  margin: 10px 0px;
+  width: 300px;
+}
